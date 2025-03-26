@@ -176,4 +176,5 @@ if st.button("Run Tournament Simulation"):
     st.download_button("Download Championship Probabilities (CSV)", data=results.to_csv(index=False), file_name="championship_odds.csv", mime="text/csv")
     st.download_button("Download Simulated Brackets (CSV)", data=brackets.to_csv(index=False), file_name="simulated_brackets.csv", mime="text/csv")
 
-st.markdown("Upload `summary25.csv` to run with real data.")
+st.markdown("🏀 Powered by KenPom data. Simulate. Share. Debate.")
+
